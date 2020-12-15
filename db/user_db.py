@@ -12,7 +12,7 @@ database_users = {
     "camilo24": UserInDB(**{"username":"camilo24",
                             "password":"root",
                             "balance":20000}),
-    "andres18": UserInDB(**{"username":"andres18",
+    "Duván": UserInDB(**{"username":"Duván",
                             "password":"hola",
                             "balance":34000}),
     "juan26": UserInDB(**{"username":"juan26",
