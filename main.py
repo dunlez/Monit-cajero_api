@@ -14,7 +14,7 @@ mi_app = FastAPI()
 
 origins = [
     "http://localhost.tiangolo.com", "https://localhost.tiangolo.com",
-    "http://localhost", "http://localhost:8080", "https://cajero-app-frontend-123.herokuapp.com"
+    "http://localhost", "http://localhost:8080", "https://monit-cajero-api.herokuapp.com/"
 ]
 mi_app.add_middleware(
     CORSMiddleware, allow_origins=origins,
